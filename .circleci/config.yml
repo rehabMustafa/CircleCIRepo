@@ -44,7 +44,7 @@ jobs:
       - run:
           name: Run Playbook and Configure server
           command: |
-            ansible-playbook main.yml -i inventory.txt --private-key ansibleproject.pem
+            ansible-playbook main.yml -i inventory.txt
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
